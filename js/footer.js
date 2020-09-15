@@ -66,8 +66,8 @@ $("a.smooth").click(function (e) {
       document.cookie = "night=1;path=/";
       console.log('夜间模式开启');
     } else {
-      document.body.classList.remove('night');
-      document.cookie = "night=0;path=/";
+      //document.body.classList.remove('night');
+      //document.cookie = "night=0;path=/";
       console.log('夜间模式关闭');
     }
   } else {

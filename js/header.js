@@ -183,10 +183,10 @@ function switchNightMode() {
     if (night == '0') {
         document.body.classList.add('night');
         document.cookie = "night=1;path=/"
-        console.log(' ');
+        console.log('切换到夜间模式');
     } else {
         document.body.classList.remove('night');
         document.cookie = "night=0;path=/"
-        console.log(' ');
+        console.log('切换到白天模式');
     }
 }
